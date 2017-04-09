@@ -1,0 +1,37 @@
+html, body {
+	background: #4F9795;
+	font-family: 'Lato', sans-serif;
+	color: #242424;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.header{
+	overflow: auto;
+	display: block;
+	clear:both;
+	background: #08484E;
+}
+
+ul.menu li  a.selected {
+	background: #A29995;
+	border-bottom: solid 5px #FF005B;
+}
+ul.menu li {
+	float: left;
+	border-right: solid 1px #4F9795;
+}
+ul.menu li  a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	padding: 20px;
+	display: block;
+	border-bottom: solid 5px #563146;
+}
+
+.footer .inner{
+	background: #563146;
+}
